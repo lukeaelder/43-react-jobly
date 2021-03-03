@@ -1,0 +1,64 @@
+.CompanyCard {
+    display: flex;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 10px;
+    text-decoration: none;
+    width: 50%;
+    margin: 20px auto 20px auto;
+}
+
+.CompanyCard-card {
+    position: relative;
+    width: 100%;
+}
+
+.CompanyCard-card h4{
+    color: black;
+    margin: 20px 0 20px 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.CompanyCard-card img{
+    text-indent: -99999px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    max-width: 50px;
+}
+
+.CompanyCard-card p{
+    color: rgb(60,60,60);
+    margin: 20px 20px 20px 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.CompanyList-list {
+    width: 100%;
+}
+
+.CompanyCard:hover .CompanyCard-card h4{
+    color: rgb(0, 0, 190);
+}
+
+.CompanyCard:hover  .CompanyCard-card p{
+    color: rgb(0, 0, 150);
+}
+
+.CompanyCard:hover{
+    border: 1px solid black;
+}
+
+.CompanyDetail h2 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.CompanyDetail p {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.CompanyDetail h4 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
