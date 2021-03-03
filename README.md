@@ -5,7 +5,7 @@
 1. Download files to local machine
 2. Install npm packages in both folders and start servers
 ```sh
-  cd 43-react-jobly
+  cd frontend
   npm i
   npm start
 ```
